@@ -4,7 +4,7 @@
 		module="allaboutscala_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20180102121749"
+		publication="20180102141643"
 	>
 		<description>
 		allaboutscala
@@ -34,5 +34,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging-slf4j_2.12" rev="2.1.2" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
